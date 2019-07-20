@@ -2,7 +2,6 @@
 //  MainPageViewController.swift
 //  MyFamily
 //
-//  Created by Faczz on 20/07/19.
 //  Copyright © 2019 Avalvassori. All rights reserved.
 //
 
