@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         
         ModelData.shared.getData();
         tmembros.text = String(ModelData.shared.listaMembros.count);
+        tfamilia.text = ModelData.shared.defaults.string(forKey: "Familia");
     }
     
     override func didReceiveMemoryWarning() {

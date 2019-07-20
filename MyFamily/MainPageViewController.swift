@@ -10,15 +10,24 @@ import UIKit
 
 class MainPageViewController: UIViewController {
 
+    @IBOutlet weak var lblFamilia: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        lblFamilia.text = ModelData.shared.defaults.string(forKey: "Familia");
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    @IBAction func act_Start(_ sender: Any) {
+        
+        ModelData.shared.defaults.set(lblFamilia.text,forKey: "Familia")
+        
+        self.performSegue(withIdentifier: "VCForm", sender: self)
     }
     
 

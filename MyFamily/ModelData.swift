@@ -14,7 +14,6 @@ class ModelData: NSObject {
     
     static let shared = ModelData()    
     var listaMembros:[Membro] = []
-    
     var defaults = UserDefaults.standard;
     
     func AddDataToDatabase(nome:String,sexo:String,idade:String) -> Bool
