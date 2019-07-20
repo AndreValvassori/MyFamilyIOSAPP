@@ -13,6 +13,11 @@
 		103D21F422E2A7CC00991819 /* MyFamily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 103D21F222E2A7CC00991819 /* MyFamily.xcdatamodeld */; };
 		103D21F622E2A7CC00991819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103D21F522E2A7CC00991819 /* Assets.xcassets */; };
 		103D21F922E2A7CC00991819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D21F722E2A7CC00991819 /* LaunchScreen.storyboard */; };
+		103D220122E2AC3E00991819 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D220022E2AC3E00991819 /* CadastroViewController.swift */; };
+		103D220322E2ACA500991819 /* MembrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D220222E2ACA500991819 /* MembrosViewController.swift */; };
+		103D220522E2AD8D00991819 /* Membro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103D220422E2AD8D00991819 /* Membro.swift */; };
+		10CA91A622E2B98A0013F99C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA91A522E2B98A0013F99C /* ModelData.swift */; };
+		10CA91A822E2D8EA0013F99C /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA91A722E2D8EA0013F99C /* MainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		103D21F522E2A7CC00991819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		103D21F822E2A7CC00991819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103D21FA22E2A7CC00991819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103D220022E2AC3E00991819 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		103D220222E2ACA500991819 /* MembrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembrosViewController.swift; sourceTree = "<group>"; };
+		103D220422E2AD8D00991819 /* Membro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Membro.swift; sourceTree = "<group>"; };
+		10CA91A522E2B98A0013F99C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		10CA91A722E2D8EA0013F99C /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				103D21EB22E2A7CC00991819 /* AppDelegate.swift */,
 				103D21ED22E2A7CC00991819 /* ViewController.swift */,
+				10CA91A722E2D8EA0013F99C /* MainPageViewController.swift */,
+				10CA91A522E2B98A0013F99C /* ModelData.swift */,
+				103D220022E2AC3E00991819 /* CadastroViewController.swift */,
+				103D220222E2ACA500991819 /* MembrosViewController.swift */,
 				103D21EF22E2A7CC00991819 /* Main.storyboard */,
 				103D21F522E2A7CC00991819 /* Assets.xcassets */,
 				103D21F722E2A7CC00991819 /* LaunchScreen.storyboard */,
 				103D21FA22E2A7CC00991819 /* Info.plist */,
 				103D21F222E2A7CC00991819 /* MyFamily.xcdatamodeld */,
+				103D220422E2AD8D00991819 /* Membro.swift */,
 			);
 			path = MyFamily;
 			sourceTree = "<group>";
@@ -139,9 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CA91A822E2D8EA0013F99C /* MainPageViewController.swift in Sources */,
+				103D220322E2ACA500991819 /* MembrosViewController.swift in Sources */,
+				103D220522E2AD8D00991819 /* Membro.swift in Sources */,
 				103D21EE22E2A7CC00991819 /* ViewController.swift in Sources */,
 				103D21EC22E2A7CC00991819 /* AppDelegate.swift in Sources */,
 				103D21F422E2A7CC00991819 /* MyFamily.xcdatamodeld in Sources */,
+				103D220122E2AC3E00991819 /* CadastroViewController.swift in Sources */,
+				10CA91A622E2B98A0013F99C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
